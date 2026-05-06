@@ -20,6 +20,11 @@ All notable changes to this project will be documented in this file.
 
 - Disabled public debug output for release builds
 
+### Fixed
+
+- Restored addon icon texture entry in the TOC file
+- Corrected slash command formatting in the README
+
 ### Known Limitations
 
 - This is an early alpha version
@@ -50,6 +55,11 @@ Alle wichtigen Änderungen an diesem Projekt werden in dieser Datei dokumentiert
 ### Geändert
 
 - Öffentliche Debug-Ausgaben für Release-Versionen deaktiviert
+
+### Korrigiert
+
+- IconTexture-Eintrag in der TOC-Datei wieder ergänzt
+- Formatierung des Slash-Befehls in der README korrigiert
 
 ### Bekannte Einschränkungen
 

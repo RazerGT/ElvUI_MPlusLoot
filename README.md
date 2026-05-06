@@ -42,7 +42,7 @@ The window shows:
 - the player name
 - a whisper button
 
-The loot window can be opened manually with the following command: ./mploot
+The loot window can be opened manually with the following command: /mploot
 
 ## Project Status
 
@@ -119,7 +119,7 @@ Das Fenster enthält:
 - den Spielernamen
 - einen Flüster-Button
 
-Das Loot-Fenster kann manuell über folgenden Befehl geöffnet werden: ./mploot
+Das Loot-Fenster kann manuell über folgenden Befehl geöffnet werden: /mploot
 
 ## Projektstatus
 

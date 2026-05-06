@@ -7,5 +7,6 @@
 ## RequiredDeps: ElvUI
 ## X-ElvUI-Plugin: true
 ## SavedVariables: ElvUIMPlusLootDB
+## IconTexture: Interface\AddOns\ElvUI_MPlusLoot\Media\Logo
 
 ElvUI_MPlusLoot.lua
