@@ -526,18 +526,6 @@ local function AttachItemTooltip(widget)
 
         GameTooltip:SetOwner(owner, "ANCHOR_CURSOR")
         GameTooltip:SetHyperlink(owner.itemLink)
-
-        if owner.keystoneLootTier then
-            local tierLabel = MPL.GetKeystoneLootTierLabel and MPL:GetKeystoneLootTierLabel(owner.keystoneLootTier)
-            local tooltipText = T("keystoneLootWishlistTooltip")
-
-            if tierLabel then
-                tooltipText = tooltipText .. ": " .. tierLabel
-            end
-
-            GameTooltip:AddLine(tooltipText, 1, 0.82, 0)
-        end
-
         GameTooltip:Show()
     end)
 
