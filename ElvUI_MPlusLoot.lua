@@ -557,22 +557,6 @@ local function MakeItemButton(parent, itemLink)
     return button
 end
 
-function MPL:GetItemRelevance(itemLink)
-    if not itemLink or not self.GetKeystoneLootFavoriteTier then
-        return nil
-    end
-
-    local ok, tier = pcall(self.GetKeystoneLootFavoriteTier, self, itemLink)
-    tier = ok and tonumber(tier) or nil
-    if not tier or tier <= 0 then
-        return nil
-    end
-
-    return {
-        keystoneLootTier = tier,
-    }
-end
-
 local function CreateText(parent, text, size, justify)
     local fs = parent:CreateFontString(nil, "OVERLAY")
     ApplyFont(fs, size or 12)
