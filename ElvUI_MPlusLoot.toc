@@ -3,7 +3,7 @@
 ## Notes: Shows Mythic+ end chest loot in an ElvUI styled window.
 ## Notes-deDE: Zeigt Mythic+ Endkisten-Loot in einem ElvUI-Fenster.
 ## Author: BeardyBear
-## Version: 0.1.0-alpha
+## Version: 0.1.1-alpha
 ## RequiredDeps: ElvUI
 ## X-ElvUI-Plugin: true
 ## SavedVariables: ElvUIMPlusLootDB
