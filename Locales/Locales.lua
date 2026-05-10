@@ -54,7 +54,7 @@ local LOCALES = {
         keystoneLootWishlistTooltip = "On KeystoneLoot wishlist",
     },
     ruRU = {
-        title = "Добыча с сундука в конце M+ подземелья",
+        title = "Добыча из сундука в конце M+ подземелья",
         headerItem = "Предмет",
         headerIlvl = "Уровень предмета",
         headerTrack = "Отслеживание",
